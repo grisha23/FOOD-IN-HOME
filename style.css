@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.wrapper {
+    font-family: 'Inter', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 30px;
+}
+.header {
+    background: #FFE768;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    width: 100%;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.header__logo-and-name {
+    display: flex;
+    gap: 6px;
+}
+.header__logo-and-name img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.header__logo {
+    color: #000;
+    font-family: Stalinist One;
+    font-size: 30px;
+    line-height: normal;
+}
+.menu { 
+    display: flex;
+    gap: 28px;
+}
+.menu__link {
+    display: block;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: normal;
+}
+.main {
+    background: #FFF;
+}
+.main .container {
+    height: 640px;
+    display: flex;
+    gap: 205px;
+    padding-top: 138px;
+}
+.main img {
+    width: 450px;
+    height: 450px;
+}
+.main__text {
+    padding-top: 46px;
+}
+.main__text h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 68px;  
+}
+.main__text p {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 64px;
+
+}
+.main__text button {
+    width: 399px;
+    height: 78px;
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    background: #FFE768;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.main__text button:hover {
+    background: #f1da66;
+}
+.benefits {
+    background-color: #ECECEC;
+}
+.benefits h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding-top: 57px;
+    margin-bottom: 82px;
+}
+.columns {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 166px;
+    gap: 30px;
+}
+.column {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 38px;
+}
+.column h3 {
+    margin-bottom: 46px;
+    color: #000;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+}
+.column p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+.products {
+    background-color: #FFF;
+}
+.products h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 57px;
+    margin-bottom: 89px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 74px;
+}
+.card {
+    max-width: 320px;
+    width: 100%;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 16px 2px rgba(0, 0, 0, 0.25);
+    padding: 35px 0px 41px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin-bottom: 32px;
+}
+.card h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+.card button {
+    width: 240px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FFE768;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+.card button:hover {
+    background: #f1da66;
+}
+.footer {
+    background: #575656;
+    height: 201px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
