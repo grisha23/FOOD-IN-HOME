@@ -131,6 +131,9 @@
     .main__text p {
         text-align: center;
     }
+    .main img {
+        max-width: 430px;
+        width: 100%;
     
 }
 @media (max-width: 550px) {
