@@ -8,6 +8,7 @@
     margin: 0px auto;
     padding: 0px 30px;
 }
+/* шапка сайта */
 .header {
     background: #FFE768;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
@@ -46,18 +47,33 @@
     font-size: 20px;
     line-height: normal;
 }
+@media (max-width: 850px) {
+    .menu {
+        display: none;
+    }
+    .header .container {
+        justify-content: center;
+    }
+}
+@media (max-width: 550px) {
+    .header__logo-and-name img {
+        display: none;
+    }
+
+}
+/* 1 страница сайта */
 .main {
     background: #FFF;
 }
 .main .container {
-    height: 640px;
+    min-height: 640px;
     display: flex;
     gap: 205px;
     padding-top: 138px;
 }
 .main img {
-    width: 450px;
-    height: 450px;
+    max-width: 450px;
+    width: 100%;
 }
 .main__text {
     padding-top: 46px;
@@ -80,7 +96,8 @@
 
 }
 .main__text button {
-    width: 399px;
+    max-width: 399px;
+    width: 100%;
     height: 78px;
     color: #000;
     font-family: Inter;
@@ -94,6 +111,38 @@
 .main__text button:hover {
     background: #f1da66;
 }
+
+@media (max-width: 1200px) {
+    .main .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 105px;
+        padding-bottom: 100px;
+    }
+    .main__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__text h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+    .main__text p {
+        text-align: center;
+    }
+    
+}
+@media (max-width: 550px) {
+    .main__text {
+        padding-top: 20px;
+    }  
+    .main__text h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+}
+/* преимущество сайта */
 .benefits {
     background-color: #ECECEC;
 }
@@ -141,6 +190,13 @@
     font-weight: 400;
     line-height: normal;
 }
+@media (max-width: 1000px) {
+    .columns {
+        flex-wrap: wrap;
+    }
+}
+
+/* товары на сайте */
 .products {
     background-color: #FFF;
 }
@@ -200,6 +256,18 @@
 .card button:hover {
     background: #f1da66;
 }
+@media (max-width: 1000px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 345px) {
+    .card h3 {
+        width: 200px;
+        text-align: center;
+    }
+}
+/* Контакты */
 .footer {
     background: #575656;
     height: 201px;
