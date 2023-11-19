@@ -82,7 +82,7 @@
     color: #000;
     font-family: Inter;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     margin-bottom: 68px;  
 }
@@ -90,7 +90,7 @@
     color: #000;
     font-family: Inter;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     margin-bottom: 64px;
 
@@ -112,7 +112,7 @@
     background: #f1da66;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .main .container {
         flex-direction: column;
         align-items: center;
